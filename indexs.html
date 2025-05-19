@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SPL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/fontawesome/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.11.0/math.min.js"></script>
+</head>
+<body>
+    <div class="head">
+        <h1>SISTEM PERSAMAAN LINEAR 3X3</h1>
+        <p class="kelompok">KELOMPOK 2</p>
+        <p class="tema">Metode Matrix Balikan & Eliminasi Gauss-Jordan</p>
+    </div>
+    <hr>
+    <form id="matrix-form">
+        <div class="matrix-label">
+            <span>X</span>
+            <span>Y</span>
+            <span>Z</span>
+            <span>=</span>
+        </div>
+    <div class="matrix-grid" id="matrix-inputs">
+    </div>
+    <button type="button" onclick="solve()"><i class="fa-regular fa-face-smile"></i> Hitung Solusi</button>
+    </form>
+    <div id="results"></div>
+    <script src="script.js"></script>
+</body>
+</html>
