@@ -13,7 +13,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: var(--white);
-    background-image: url(/image/pattern.png);
+    background-image: url(image/pattern.png);
     background-size: cover;
 }
 .head {
